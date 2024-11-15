@@ -11,13 +11,13 @@
 </head>
     <body>
         <header> 
-            @include('layouts.header') 
+            @include('components.header') 
         </header>
                 <main class="flex-1">
                     @yield('content')
                 </main>
         <footer> 
-                @include('layouts.footer')
+                @include('components.footer')
         </footer>
     </body>
 </html>

@@ -10,12 +10,12 @@
                 &#9776;
             </button>
         </div>
-         <!-- IF MOBILE SCREEN DISAPPEARS-->
+        <!-- IF MOBILE SCREEN DISAPPEARS-->
         <ul class="hidden md:flex md:ml-auto flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mr-10 gap-7">
             <li><a href="{{ route('home') }}" class="text-black hover:text-blue-800 font-black">Home</a></li>
             <li><a href="{{ route('services') }}" class="text-black hover:text-blue-800 font-black">Services</a></li>
             <li><a href="{{ route('contact') }}" class="pr-10 text-black hover:text-blue-800 font-black">Contact Us</a></li>
-            <li><a href="{{ route('login') }}" class="py-2 px-10 rounded-full inline-flex items-center text-white bg-gradient-to-l from-blue-600 via-blue-600 to-sky-600">Log-in</a></li>
+            <x-log-in-buttons/>
         </ul>
     </nav>
     
@@ -27,7 +27,7 @@
         <hr class="py-2">
         <li><a href="{{ route('contact') }}" class="text-black hover:text-blue-800 ">Contact Us</a></li>
         <hr class="py-2">
-        <li class="flex justify-center text-1xl"><a href="{{ route('login') }}" class="py-2 px-10 rounded-full inline-flex items-center text-white bg-gradient-to-l from-blue-600 via-blue-600 to-sky-600 text-1xl">Log-in</a></li>
+        <x-log-in-buttons/>
     </ul>
 </header>
 
