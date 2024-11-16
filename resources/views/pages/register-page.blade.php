@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('mainblades.main')
 
 @section('content')
     <div class="my-5 w-full md: flex sm: flex-wrap">

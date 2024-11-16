@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('mainblades.main')
 
 @section('content')
     <div class="ml-10 py-20 px-5 md:px-10 lg:px-20 max-w-full">

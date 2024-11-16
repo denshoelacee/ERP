@@ -16,6 +16,9 @@ html,body{
   display: flex;
   flex-direction: column;
   font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+
+  
 }
 
 .slider-container {
